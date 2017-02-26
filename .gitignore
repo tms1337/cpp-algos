@@ -3,6 +3,7 @@
 *.ans
 *.o
 .vscode/
+*.dat
 =======
 # Compiled Object files
 *.slo

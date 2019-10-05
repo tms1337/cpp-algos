@@ -52,13 +52,16 @@ using namespace std;
 
 #define stll stack<long long>
 
-#define DEBUG 1
+bool DEBUG = false;
 #define debug if (DEBUG)
 
 #define forn(karna, n) for (int karna = 0; karna < n; karna++)
 #define ignore cin.ignore(1000, '\n')
 
-int main() {
+int main(int argc, char *argv[]) {
+  if (argc >= 2) {
+    DEBUG = true;
+  }
 
   return 0;
 }

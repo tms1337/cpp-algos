@@ -239,7 +239,7 @@ void evaluate_hand(const int &points, const int &no_trump_points,
 
 int main(int argc, char *argv[]) {
   if (argc >= 2) {
-    DEBUG = 0;
+    DEBUG = 1;
   }
 
   bool should_break = false;

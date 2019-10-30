@@ -1,2 +1,2 @@
 # cpp-algos
-Some of my solutions for kattis and project euler.
+Some of my solutions for kattis, project euler and UVa.

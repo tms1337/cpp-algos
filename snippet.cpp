@@ -58,6 +58,10 @@ bool DEBUG = false;
 #define forn(karna, n) for (int karna = 0; karna < n; karna++)
 #define ignore cin.ignore(1000, '\n')
 
+#define EPS 1e-7
+
+bool eq(double a, double b) { return abs(a - b) < EPS; }
+
 int main(int argc, char *argv[]) {
   if (argc >= 2) {
     DEBUG = true;

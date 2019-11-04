@@ -33,6 +33,8 @@ using namespace std;
 #define vii vector<pair<int, int>>
 #define vll vector<long long>
 
+#define ses set<string>
+#define sec set<char>
 #define seb set<bool>
 #define sei set<int>
 #define seii set<pair<int, int>>
